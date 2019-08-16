@@ -1,0 +1,31 @@
+{
+  "name": "@alumis/signal-server",
+  "version": "2.0.0",
+  "description": "Signal server",
+  "scripts": {
+    "bump": "git add -A & git commit -am 'bumped' && npm version patch && npm publish && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alumis/signal-server.git"
+  },
+  "author": "Emil Müller",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/alumis/signal-server/issues"
+  },
+  "devDependencies": {
+    "@alumis/observables": "^2.0.14",
+    "@alumis/observables-i18n": "^2.0.2",
+    "@alumis/utils": "^2.0.1",
+    "@aspnet/signalr": "^1.1.4",
+    "@aspnet/signalr-protocol-msgpack": "^1.1.0"
+  },
+  "peerDependencies": {
+    "@alumis/observables": "^2.0.14",
+    "@alumis/observables-i18n": "^2.0.2",
+    "@alumis/utils": "^2.0.1",
+    "@aspnet/signalr": "^1.1.4",
+    "@aspnet/signalr-protocol-msgpack": "^1.1.0"
+  }
+}
